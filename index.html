@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Web con muchos banners</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .banners {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .banner {
+      background: white;
+      border: 2px dashed #999;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mi web llena de publicidad</h1>
+  <p style="text-align:center;">Aquí irán MUCHOS banners publicitarios</p>
+
+  <div class="banners">
+    <div class="banner">Banner 1</div>
+    <div class="banner">Banner 2</div>
+    <div class="banner">Banner 3</div>
+    <div class="banner">Banner 4</div>
+    <div class="banner">Banner 5</div>
+    <div class="banner">Banner 6</div>
+    <div class="banner">Banner 7</div>
+    <div class="banner">Banner 8</div>
+    <div class="banner">Banner 9</div>
+    <div class="banner">Banner 10</div>
+    <div class="banner">Banner 11</div>
+    <div class="banner">Banner 12</div>
+  </div>
+</body>
+</html>
